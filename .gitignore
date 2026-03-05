@@ -1,0 +1,19 @@
+# Abaikan Virtual Environment
+venv/
+.venv/
+
+# Abaikan hasil data (karena terlalu besar untuk GitHub)
+data/clean/
+data/curated/
+data/serving/
+*.parquet
+*.crc
+
+# Abaikan log dan metadata
+logs/*.log
+.ipynb_checkpoints/
+__pycache__/
+*.Zone.Identifier
+
+# Abaikan hasil laporan gambar
+reports/*.png
